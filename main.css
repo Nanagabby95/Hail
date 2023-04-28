@@ -1,0 +1,115 @@
+.hero-container{
+    position: relative;
+  }
+  
+  
+  .hero-container p {
+    position: absolute;
+    left: 370px;
+    top: 170px;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+
+ .website{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 100px;
+    border-radius: 5px;
+}
+
+.cameo{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 60px;
+    border-radius: 5px;
+}
+.tiktok{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 137px;
+    border-radius: 5px;
+}
+.twitter{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 137px;
+    border-radius: 5px;
+}
+.instagram{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 128px;
+    border-radius: 5px;
+}
+
+.facebook{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 132px;
+    border-radius: 5px;
+}
+.youtube{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 130px;
+    border-radius: 5px;
+}
+.button{
+    width: 400px !important;
+    border-radius: 10px !important;
+    border: none;
+}
+
+
+
+.button-site{
+    width: 400px !important;
+    border-radius: 10px !important;
+    border: none;
+}
+.button-tik{
+    width: 400px !important;
+    border-radius: 10px !important;
+    border: none;
+}
+.button-tube{
+    width: 400px !important;
+    border-radius: 10px !important;
+    border: none;
+}
+.button-twitter{
+    width: 400px !important;
+    border-radius: 10px !important;
+    border: none;
+}
+
+.cameo-div a:hover{
+    color: red !important;
+}
+
+
+@media (width<960px) {
+    .hero-container p{
+        position: absolute;
+        left: 150px;
+        bottom: 400px;
+    }
+}
+
+@media (width<450px) {
+    .hero-container p{
+        position: absolute;
+        left: 0 !important;
+        bottom: 400px;
+        width: 75%;
+    }
+}
