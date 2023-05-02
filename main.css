@@ -324,85 +324,85 @@
         text-align: center;
         justify-content: center;
         align-content: center;
-        width: 220px !important; 
+        width: 260px !important; 
         
     }
     .button{
-        width: 220px !important;
+        width: 260px !important;
         font-size: 12px;
     }
     .button-site{
-        width: 220px !important; 
+        width: 260px !important; 
         font-size: 12px;
     }
     .button-tik{
-        width: 220px !important;
+        width: 260px !important;
         font-size: 12px;
     }
     .button-tube{
-        width: 220px !important;
+        width: 260px !important;
         font-size: 12px; 
     }
     .button-twitter{
-        width: 220px !important; 
+        width: 260px !important; 
         font-size: 12px;
     }
     .cameo{
         width: 20% !important;
         height: 12% !important;
         position: relative;
-        right: 20px;
-        border-radius: 5px;
+        right: 35px;
+        border-radius: 8px;
     }
     .tiktok{
         width: 18% !important;
-        height: 8% !important;
+        height: 9% !important;
         position: relative;
-        right: 80px;
-        border-radius: 5px;
+        right: 95px;
+        border-radius: 8px;
     }
     .twitter{
         width: 20% !important;
         height: 10% !important;
         position: relative;
-        right: 75px;
-        border-radius: 5px;
+        right: 95px;
+        border-radius: 8px;
     }
     .instagram{
         width: 20% !important;
         height: 10% !important;
         position: relative;
-        right: 70px;
-        border-radius: 5px;
+        right: 90px;
+        border-radius: 8px;
     }
     
     .facebook{
         width: 20% !important;
         height: 10% !important;
         position: relative;
-        right: 70px !important;
-        border-radius: 5px;
+        right: 90px !important;
+        border-radius: 8px;
     }
     .website{
         width: 20% !important;
         height: 10% !important;
         position: relative;
-        right: 50px;
-        border-radius: 5px;
+        right: 66px;
+        border-radius: 8px;
     }
     .youtube{
         width: 20% !important;
         height: 10% !important;
         position: relative;
-        right: 70px;
-        border-radius: 5px;
+        right: 90px;
+        border-radius: 8px;
     }
     .footer-icons img{
         width: 20px !important;
     }
 
     .footer-icons .gap-4{
-        gap: .8em !important;
+        gap: 1em !important;
        
     }
     .footer-logo{
