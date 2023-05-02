@@ -197,113 +197,7 @@
         width: 100%; 
     }
 }
-@media (min-width:300px) {
-    body{
-        text-align: center !important;
-        justify-content: center !important;
-        align-content: center !important;
-    }
-    .hero-container p{
-        font-size: 12px;
-        position: relative;
-        left: -13px !important;
-        top: -50px !important;
-        width: 100%; 
-    } 
-
-    .hero-container img{
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        width: 220px !important; 
-        
-    }
-    .button{
-        width: 200px !important;
-        font-size: 12px;
-    }
-    .button-site{
-        width: 200px !important; 
-        font-size: 12px;
-    }
-    .button-tik{
-        width: 200px !important; 
-        font-size: 12px;
-    }
-    .button-tube{
-        width: 200px !important;
-        font-size: 12px; 
-    }
-    .button-twitter{
-        width: 200px !important; 
-        font-size: 12px;
-    }
-    .cameo{
-        width: 20% !important;
-        height: 12% !important;
-        position: relative;
-        right: 8px;
-        border-radius: 5px;
-    }
-    .tiktok{
-        width: 18% !important;
-        height: 8% !important;
-        position: relative;
-        right: 70px;
-        border-radius: 5px;
-    }
-    .twitter{
-        width: 20% !important;
-        height: 10% !important;
-        position: relative;
-        right: 70px;
-        border-radius: 5px;
-    }
-    .instagram{
-        width: 20% !important;
-        height: 10% !important;
-        position: relative;
-        right: 60px;
-        border-radius: 5px;
-    }
-    
-    .facebook{
-        width: 20% !important;
-        height: 10% !important;
-        position: relative;
-        right: 60px !important;
-        border-radius: 5px;
-    }
-    .website{
-        width: 20% !important;
-        height: 10% !important;
-        position: relative;
-        right: 40px;
-        border-radius: 5px;
-    }
-    .youtube{
-        width: 20% !important;
-        height: 10% !important;
-        position: relative;
-        right: 60px;
-        border-radius: 5px;
-    }
-    .footer-icons img{
-        width: 20px !important;
-    }
-
-    .footer-icons .gap-4{
-        gap: 0 !important;
-       
-    }
-    .footer-logo{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-left: 2em !important;
-    }
-}
-@media (width<300px) {
+@media (max-width:300px) {
     body{
         text-align: center !important;
         justify-content: center !important;
@@ -410,7 +304,101 @@
     }
 }
 
+  
+@media (max-width: 740px) {
+    body{
+        text-align: center !important;
+        justify-content: center !important;
+        align-content: center !important;
+    }
+    .hero-container p{
+        font-size: 12px;
+        position: relative;
+        left: -20px !important;
+        top: -80px !important;
+        width: 100%; 
+    }
+     
 
+    .hero-container img{
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        width: 220px !important; 
+        
+    }
+    .button{
+        width: 200px !important;
+        font-size: 12px;
+    }
+    .button-site{
+        width: 200px !important; 
+        font-size: 12px;
+    }
+    .button-tik{
+        width: 200px !important;
+        font-size: 12px;
+    }
+    .button-tube{
+        width: 200px !important;
+        font-size: 12px; 
+    }
+    .button-twitter{
+        width: 200px !important; 
+        font-size: 12px;
+    }
+    .cameo{
+        width: 20% !important;
+        height: 12% !important;
+        position: relative;
+        right: 8px;
+        border-radius: 5px;
+    }
+    .tiktok{
+        width: 18% !important;
+        height: 8% !important;
+        position: relative;
+        right: 70px;
+        border-radius: 5px;
+    }
+    .twitter{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 70px;
+        border-radius: 5px;
+    }
+    .instagram{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 60px;
+        border-radius: 5px;
+    }
+    
+    .facebook{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 60px !important;
+        border-radius: 5px;
+    }
+    .website{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 40px;
+        border-radius: 5px;
+    }
+    .youtube{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 60px;
+        border-radius: 5px;
+    }
+}
+   
 @media (width>973px) {
     .hero-container p {
         position: absolute;
