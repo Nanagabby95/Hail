@@ -16,7 +16,7 @@
     width: 20% !important;
     height: 10% !important;
     position: relative;
-    right: 100px;
+    right: 80px;
     border-radius: 5px;
 }
 
@@ -24,28 +24,28 @@
     width: 20% !important;
     height: 10% !important;
     position: relative;
-    right: 60px;
+    right: 40px;
     border-radius: 5px;
 }
 .tiktok{
     width: 20% !important;
     height: 10% !important;
     position: relative;
-    right: 137px;
+    right: 120px;
     border-radius: 5px;
 }
 .twitter{
     width: 20% !important;
     height: 10% !important;
     position: relative;
-    right: 137px;
+    right: 120px;
     border-radius: 5px;
 }
 .instagram{
     width: 20% !important;
     height: 10% !important;
     position: relative;
-    right: 128px;
+    right: 105px;
     border-radius: 5px;
 }
 
@@ -53,14 +53,14 @@
     width: 20% !important;
     height: 10% !important;
     position: relative;
-    right: 132px;
+    right: 110px;
     border-radius: 5px;
 }
 .youtube{
     width: 20% !important;
     height: 10% !important;
     position: relative;
-    right: 130px;
+    right: 110px;
     border-radius: 5px;
 }
 .button{
@@ -96,20 +96,236 @@
     color: red !important;
 }
 
+@media (width>=963px) {
+    .hero-container p{
+        position: absolute;
+        left: 220px;
+        top:100px;
+        font-size: 15px;
+    }
+    .website{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 100px;
+        border-radius: 5px;
+    }
+    
+.cameo{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 60px;
+    border-radius: 5px;
+}
+.tiktok{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 135px;
+    border-radius: 5px;
+}
+.twitter{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 140px;
+    border-radius: 5px;
+}
+.instagram{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 130px;
+    border-radius: 5px;
+}
 
+.facebook{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 130px;
+    border-radius: 5px;
+}
+.youtube{
+    width: 20% !important;
+    height: 10% !important;
+    position: relative;
+    right: 130px;
+    border-radius: 5px;
+}
+    
+    
+} 
 @media (width<960px) {
     .hero-container p{
         position: absolute;
-        left: 150px;
-        bottom: 400px;
+        left: 230px;
+        top:90px;
+        font-size: 15px;
+    }
+    .button{
+        width: 280px !important;
+    }
+    .button-site{
+        width: 300px !important; 
+    }
+    .button-tik{
+        width: 300px !important; 
+    }
+    .button-tube{
+        width: 300px !important; 
+    }
+    .button-twitter{
+        width: 300px !important; 
+    }
+    .buttons-wrapper{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-container img{
+        width: 300px !important; 
     }
 }
 
-@media (width<450px) {
+@media (width<687px) {
     .hero-container p{
-        position: absolute;
-        left: 0 !important;
-        bottom: 400px;
-        width: 75%;
+        position: relative;
+        left: -20px !important;
+        top: -80px !important;
+        width: 100%; 
     }
 }
+@media (width<300px) {
+    body{
+        text-align: center !important;
+        justify-content: center !important;
+        align-content: center !important;
+    }
+    .hero-container p{
+        font-size: 12px;
+        position: relative;
+        left: -13px !important;
+        top: -50px !important;
+        width: 100%; 
+    } 
+
+    .hero-container img{
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        width: 220px !important; 
+        
+    }
+    .button{
+        width: 200px !important;
+        font-size: 12px;
+    }
+    .button-site{
+        width: 200px !important; 
+        font-size: 12px;
+    }
+    .button-tik{
+        width: 200px !important; 
+        font-size: 12px;
+    }
+    .button-tube{
+        width: 200px !important;
+        font-size: 12px; 
+    }
+    .button-twitter{
+        width: 200px !important; 
+        font-size: 12px;
+    }
+    .cameo{
+        width: 20% !important;
+        height: 12% !important;
+        position: relative;
+        right: 8px;
+        border-radius: 5px;
+    }
+    .tiktok{
+        width: 18% !important;
+        height: 8% !important;
+        position: relative;
+        right: 70px;
+        border-radius: 5px;
+    }
+    .twitter{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 70px;
+        border-radius: 5px;
+    }
+    .instagram{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 60px;
+        border-radius: 5px;
+    }
+    
+    .facebook{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 60px !important;
+        border-radius: 5px;
+    }
+    .website{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 40px;
+        border-radius: 5px;
+    }
+    .youtube{
+        width: 20% !important;
+        height: 10% !important;
+        position: relative;
+        right: 60px;
+        border-radius: 5px;
+    }
+    .footer-icons img{
+        width: 20px !important;
+    }
+
+    .footer-icons .gap-4{
+        gap: 0 !important;
+       
+    }
+    .footer-logo{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 2em !important;
+    }
+}
+
+
+@media (width>973px) {
+    .hero-container p {
+        position: absolute;
+        left: 230px;
+        top: 170px;
+      }
+}
+
+@media (width>980px) {
+    .hero-container p {
+        position: absolute;
+        left: 290px;
+        top: 170px;
+      }
+}
+
+@media (width>1180px) {
+    .hero-container p {
+        position: absolute;
+        left: 400px;
+        top: 170px;
+      }
+}
+
